@@ -1,0 +1,9 @@
+variable "log_analytics_workspace_id" {}
+variable "enable_signin_logs" {}
+variable "enable_audit_logs" {}
+variable "enable_non_interactive_signin_logs" {}
+variable "enable_service_principal_signin_logs" {}
+variable "enable_managed_identity_signin_logs" {}
+variable "enable_provisioning_logs" {}
+variable "enable_adfs_signin_logs" {}
+variable "log_retention" {}
